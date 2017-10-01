@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+.btn {
+    color: $base-color;
+    background-color: white;
+    border: 1px solid $base-color;
+}
+
+.btn:hover {
+    color: white;
+    background-color: $base-color;
+}
+
+.btn:focus {
+    color: white;
+    background-color: darken($base-color, 10%);
+}

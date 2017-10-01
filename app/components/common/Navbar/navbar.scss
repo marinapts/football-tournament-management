@@ -1,0 +1,11 @@
+@import '../../../scss/variables.scss';
+
+nav {
+    background-color: $base-color;
+    height: 55px;
+
+    .brand-logo {
+        font-size: 1.4rem;
+        padding-left: 30px;
+    }
+}

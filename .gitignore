@@ -1,0 +1,4 @@
+node_modules/
+server.log
+public/bundle.js
+public/styles.css

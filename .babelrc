@@ -1,0 +1,22 @@
+{
+    "presets": [
+        "es2015",
+        "react"
+    ],
+    "plugins": [
+        "transform-decorators-legacy",
+        "transform-object-rest-spread",
+        "transform-class-properties",
+        "transform-remove-strict-mode"
+    ],
+    "env": {
+        "production": {
+            "presets": [
+                "react-optimize"
+            ]
+        }
+    },
+    "ignore": [
+        "./app/js/mpld3.js"
+    ]
+}
